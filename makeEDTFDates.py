@@ -133,11 +133,14 @@ def getEDTF(datetext, datecollection, letter_key=None):
     # means error from webservice
     # Add information about qualification of the date
     quality_fulldate = ''
-    if 'etwa' == datetext[:4]:
+    # qualification for approximate date
+    if '?' not in datetext and '[' in datetext and ']' in datetext:
         quality_fulldate = '~'
-    elif re.match('wahrscheinlich|vermutlich', datetext):
+    # qualification for uncertain date
+    elif '?' in datetext and '[' not in datetext and ']' in datetext:
         quality_fulldate = '?'
-    if '*' == letter_key[-1]:
+    # qualification for uncertain and approcimate date
+    elif '?' in datetext and '[' in datetext and ']' in datetext:
         quality_fulldate = '%'
 
     date = ''
@@ -149,15 +152,15 @@ def getEDTF(datetext, datecollection, letter_key=None):
 #            elif key == 'notBefore' and len(dates.items()) > 1:
 #                date = isodate + quality_fulldate + '..,'
             elif key == 'notBefore':
-                date = isodate + quality_fulldate + '..'
+                date = isodate + '..'
 #            elif key == 'notAfter' and len(dates.items()) > 1:
 #                date += '..' + isodate + quality_fulldate + ''
             elif key == 'notAfter':
-                date += '..' + isodate + quality_fulldate + ''
+                date += '..' + isodate
             elif key == 'from':
                 date = isodate + quality_fulldate + '/'
             elif key == 'to':
-                date += '/' + isodate + quality_fulldate + ''
+                date += '/' + isodate + quality_fulldate
             else:
                 print('WARN: Unexpected date key found.')
     elif len(datecollection) == 2:
@@ -165,12 +168,12 @@ def getEDTF(datetext, datecollection, letter_key=None):
         for key, isodate in datecollection[0].items():
             if key in ('when', 'notBefore', 'from'):
                 if ' und ' in prepareDate(datetext):
-                    date = isodate + quality_fulldate + '..'
+                    date = isodate + '..'
                 else:
-                    date = isodate + quality_fulldate + ','
+                    date = isodate + ','
         for key, isodate in datecollection[1].items():
             if key in ('when', 'notAfter', 'to'):
-                date += isodate + quality_fulldate + ''
+                date += isodate
     else:
         print('ERROR: Got more than 2 date occurences.')
     # Cleanup
