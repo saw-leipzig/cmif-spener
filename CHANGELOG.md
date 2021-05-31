@@ -10,6 +10,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 - License, Changelog, Gitignore and Readme
 - csv2cmi INI-file
+- Python script `makeEDTFDates` for date conversion
 - Letters data as CSV of
   - Philipp Jakob Spener, Briefe aus der Frankfurter Zeit, Vol. 1-7
   - Philipp Jakob Spener, Briefe aus der Dresdner Zeit, Vol. 1-4
