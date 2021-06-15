@@ -15,4 +15,4 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
   - Philipp Jakob Spener, Briefe aus der Frankfurter Zeit, Vol. 1-7
   - Philipp Jakob Spener, Briefe aus der Dresdner Zeit, Vol. 1-4
   - Philipp Jakob Spener, Briefwechsel mit August Hermann Francke 1689 – 1704
-  - Philipp Jakob Spener: Briefwechsel mit Adam von Rechenberg, Vol. 1
+  - Philipp Jakob Spener, Briefwechsel mit Adam von Rechenberg, Vol. 1
