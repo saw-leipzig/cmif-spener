@@ -5,16 +5,12 @@
         <fileDesc>
             <titleStmt>
                 <title xml:id="title-3ca1-d43a-a3c2de8069">Philipp Jakob Spener: Briefwechsel</title>
-                <editor>Marcus Heydecke</editor>
-                <editor>Uwe Kretschmer</editor>
-                <editor>Klaus vom Orde</editor>
-                <editor>Lars Scheideler</editor>
-                <editor>Marius Jörg Stachowski</editor>
+                <editor>Uwe Kretschmer <email>kretschmer@saw-leipzig.de</email></editor>
             </titleStmt>
             <publicationStmt>
                 <publisher>Sächsische Akademie der Wissenschaften zu Leipzig</publisher>
                 <idno type="url">https://raw.githubusercontent.com/saw-leipzig/cmif-spener/master/letters.xml</idno>
-                <date when="2021-06-15T11:19:12.416008" />
+                <date when="2021-06-20T14:14:12.416008" />
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by/4.0/">This file is licensed under the terms of the Creative-Commons-License CC-BY 4.0</licence>
                 </availability>
