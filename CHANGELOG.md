@@ -6,6 +6,11 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## [Unreleased]
 
+### Fixed
+
+- Changed incorrect name "Adam von Rechenberg" to "Adam Rechenberg"
+- Typo in changelog
+
 ## [1.0.1] - 2021-06-20
 
 ### Changed
@@ -25,6 +30,6 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
   - Philipp Jakob Spener, Briefwechsel mit August Hermann Francke 1689 – 1704
   - Philipp Jakob Spener, Briefwechsel mit Adam von Rechenberg, Vol. 1
 
-[Unrelease]: https://github.com/saw-leipzig/cmif-spener/compare/1.0.1...HEAD
+[Unreleased]: https://github.com/saw-leipzig/cmif-spener/compare/1.0.1...HEAD
 [1.0.1]: https://github.com/saw-leipzig/cmif-spener/compare/1.0.0...1.0.1
 [1.0.0]: https://github.com/saw-leipzig/cmif-spener/releases/tag/1.0.0
