@@ -10,7 +10,7 @@
             <publicationStmt>
                 <publisher>Sächsische Akademie der Wissenschaften zu Leipzig</publisher>
                 <idno type="url">https://raw.githubusercontent.com/saw-leipzig/cmif-spener/master/letters.xml</idno>
-                <date when="2021-10-04T15:56:39.669233" />
+                <date when="2022-05-12T14:25:08.155516" />
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by/4.0/">This file is licensed under the terms of the Creative-Commons-License CC-BY 4.0</licence>
                 </availability>
@@ -8513,7 +8513,8 @@
                 </correspAction>
                 <correspAction xml:id="addressee-ab17-51ae-87569a3e4f" type="received">
                     <persName evidence="conjecture">einen Amtsbruder</persName>
-                    <placeName evidence="conjecture" ref="http://www.geonames.org/2950159|http://www.geonames.org/6545310">Berlin]|[Cölln?</placeName>
+                    <placeName evidence="conjecture" ref="http://www.geonames.org/2950159">Berlin</placeName>
+                    <placeName evidence="conjecture" ref="http://www.geonames.org/6545310">Cölln?</placeName>
                 </correspAction>
             </correspDesc>
             <correspDesc source="#c34ff873-352f-4422-adf5-279a294692dc" key="175" xml:id="letter-7d32-ac29-3c958d7a0b">
@@ -12400,7 +12401,8 @@
                 </correspAction>
                 <correspAction xml:id="addressee-a0f6-e162-ebc9f5a231" type="received">
                     <persName ref="http://d-nb.info/gnd/128874678">Graf Johann Friedrich von Solms-Laubach</persName>
-                    <placeName ref="http://www.geonames.org/2880308|http://www.geonames.org/2818042">Laubach|Utphe</placeName>
+                    <placeName ref="http://www.geonames.org/2880308">Laubach</placeName>
+                    <placeName ref="http://www.geonames.org/2818042">Utphe</placeName>
                 </correspAction>
             </correspDesc>
             <correspDesc source="#bb233fbf-7564-4174-99ff-f42c3cd13f8d" key="179" xml:id="letter-196d-7fd2-a38c6b094d">
@@ -12497,7 +12499,8 @@
                 </correspAction>
                 <correspAction xml:id="addressee-db49-e2f0-3467dc5e1a" type="received">
                     <persName ref="http://d-nb.info/gnd/128874678">Graf Johann Friedrich von Solms-Laubach</persName>
-                    <placeName ref="http://www.geonames.org/2880308|http://www.geonames.org/2818042">Laubach|Utphe</placeName>
+                    <placeName ref="http://www.geonames.org/2880308">Laubach</placeName>
+                    <placeName ref="http://www.geonames.org/2818042">Utphe</placeName>
                 </correspAction>
             </correspDesc>
             <correspDesc source="#bb233fbf-7564-4174-99ff-f42c3cd13f8d" key="188" xml:id="letter-0a59-af41-6290c7581a">
@@ -12573,7 +12576,8 @@
                 </correspAction>
                 <correspAction xml:id="addressee-602b-b9d2-ef8517490b" type="received">
                     <persName ref="http://d-nb.info/gnd/128874678">Graf Johann Friedrich von Solms-Laubach</persName>
-                    <placeName ref="http://www.geonames.org/2880308|http://www.geonames.org/2818042">Laubach|Utphe</placeName>
+                    <placeName ref="http://www.geonames.org/2880308">Laubach</placeName>
+                    <placeName ref="http://www.geonames.org/2818042">Utphe</placeName>
                 </correspAction>
             </correspDesc>
             <correspDesc source="#bb233fbf-7564-4174-99ff-f42c3cd13f8d" key="195" xml:id="letter-d9f2-be67-b10f869a5d">
