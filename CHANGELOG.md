@@ -6,6 +6,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## [Unreleased]
 
+### Added
+
+- Added mail to editor and website URL to publisher.
+
 ## [1.0.3] - 2022-05-12
 
 ### Fixed
